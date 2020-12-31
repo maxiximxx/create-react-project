@@ -1,0 +1,21 @@
+{
+  "name": "create-react-project",
+  "version": "1.0.0",
+  "description": "create react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-react-project": "./index.js"
+  },
+  "author": "mxx",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.2.0"
+  },
+  "dependencies": {}
+}
