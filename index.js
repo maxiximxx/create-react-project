@@ -71,7 +71,7 @@ const downloadProject = (projectName) => {
   console.log()
   const spinner = ora('Downloading react project template')
   spinner.start()
-  const downloadPath = `direct:https://github.com/maxiximxx/react-project-template.git#redux-toolkit`
+  const downloadPath = `direct:https://github.com/maxiximxx/react-app-template.git`
   download(downloadPath, root, { clone: true }, (err) => {
     if (err) {
       spinner.fail()
