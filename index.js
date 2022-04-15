@@ -135,7 +135,7 @@ const downloadProject = (projectName, initParams) => {
   console.log()
   const spinner = ora(`Downloading react project with ${template} template`)
   spinner.start()
-  const branch = template === 'JavaScript' ? 'master' : 'ts'
+  const branch = template === 'JavaScript' ? 'master' : 'ts-new'
   const downloadPath = `direct:https://github.com/maxiximxx/react-app-template.git#${branch}`
   download(downloadPath, root, { clone: true }, async (err) => {
     if (err) {
